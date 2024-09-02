@@ -9,7 +9,7 @@
       "abs_exp": [
         {
           "title": "BAMPI Auto Deploy Solution",
-          "content": "為了增強 BAMPI 的部署能力，我設計了一個大規模自動化部署功能。該方案利用 insomniacslk/dhcp 和 pin/tftp 來提供定制的 IP 地址和安裝配置文件 kickstart，並通過 net/http 提供 API 以追蹤安裝進度。利用kickstart 內 %pre section 可做到動態指定 IP/Partion 等安裝設定，並使各個伺服器使用同一 install source tree 資源進行安裝。",
+          "content": "為了增強 BAMPI 的部署能力，我設計了一個大規模自動化部署功能。該方案利用 insomniacslk/dhcp 和 pin/tftp 來提供定制的 IP 地址和安裝配置文件 kickstart，並通過 net/http 提供 API 以追蹤安裝進度。利用kickstart 內 %pre section 可做到動態指定 IP/Partion 等安裝設定，並使各個伺服器使用同一個 source tree 進行安裝。",
           "pic": "assets/img/auto-deploy-flow-illusions.png"
         },
         {
