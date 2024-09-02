@@ -8,6 +8,15 @@
       "subtitle": "2022/12 ~ now",
       "abs_exp": [
         {
+          "title": "BAMPI Auto Deploy Solution",
+          "content": "為了增強 BAMPI 的部署能力，我設計了一個大規模自動化部署功能。該方案利用 insomniacslk/dhcp 和 pin/tftp 來提供定制的 IP 地址和安裝配置文件 kickstart，並通過 net/http 提供 API 以追蹤安裝進度。",
+          "pic": "assets/img/auto-deploy-flow-illusions.png"
+        },
+        {
+          "title": "Prepare BAMPI V",
+          "content": "因應客戶認為軟體更新的部署過程太過複雜，計畫將 BAMPI 轉換為容器化應用，以降低部署難度，提高擴展性與高可用性。做為第一步我建構 K8s Cluster 取代原本 PVE 的環境。"
+        },
+        {
           "title": "Multi-platform BAMPI",
           "content": "因應現行運行環境 RHEL7 系統即將 EOL，為滿足客戶需求，我將其擴展至 RHEL8，解決許多相依性與測試問題。包含 Java 與 Python 的版本與程式碼移植升級，多項系統服務升級，如 Web/DHCP/NFS server、HA Pacemaker/Corosync 等，提供安裝、資料備份與移植新環境等相關文件，最後成功於客戶端支援上線。"
         },
@@ -23,10 +32,6 @@
         {
           "title": "ARM SystemReady IR",
           "content": "協助電光所進行 SystemReady IR 驗證 ARM base IoT，推動驗證中心。我準備 Python 測試與 u-boot 建置環境，進行設備功能與作業系統運行驗證，並提供系統可用性測試報告。"
-        },
-        {
-          "title": "Prepare BAMPI V",
-          "content": "因應客戶認為軟體更新的部署過程太過複雜，計畫將 BAMPI 轉換為容器化應用，以降低部署難度，提高擴展性與高可用性。做為第一步我建構 K8s Cluster 取代原本 PVE 的環境。為使 BAMPI 朝向雲端解決方案，開發 Redhat base 自動化安裝功能。"
         }
       ]
     },
