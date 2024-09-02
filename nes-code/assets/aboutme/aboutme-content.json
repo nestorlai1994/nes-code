@@ -9,7 +9,7 @@
       "abs_exp": [
         {
           "title": "BAMPI Auto Deploy Solution",
-          "content": "為了增強 BAMPI 的部署能力，我設計了一個大規模自動化部署功能。該方案利用 insomniacslk/dhcp 和 pin/tftp 來提供定制的 IP 地址和安裝配置文件 kickstart，並通過 net/http 提供 API 以追蹤安裝進度。",
+          "content": "為了增強 BAMPI 的部署能力，我設計了一個大規模自動化部署功能。該方案利用 insomniacslk/dhcp 和 pin/tftp 來提供定制的 IP 地址和安裝配置文件 kickstart，並通過 net/http 提供 API 以追蹤安裝進度。僅需要提供個別kicksstart檔案，即可使各個伺服器使用同一 install source tree 資源進行安裝。",
           "pic": "assets/img/auto-deploy-flow-illusions.png"
         },
         {
@@ -93,15 +93,15 @@
       "abs_exp": [
         {
           "title": "Resume Page",
-          "content": "nesoli-beta.life/nes-code，是一個簡單的 Angular2+ / Gin base on K8s 的實作。每位工程師心中都有一個想完成的應用，而我也藉此熟悉一些網頁技術與 golang 語法。"
+          "content": "nesoli-beta.life/nes-code 是一個基於 Angular 2+ 和 Gin，部署在 Kubernetes 上的實作項目。這個項目讓我在實現自己構想的應用的同時，深入熟悉了網頁技術與 Golang 語法。"
         },
         {
           "title": "Practice",
-          "content": "在閒暇之餘，偶爾上 Leetcode 刷刷 golang 相關的題目。近來練習 Node Tree 與 Counting sort / Radix sort，在理解與實作的過程中精進自己。"
+          "content": "在閒暇時間，我會在 Leetcode 上練習 Golang 的相關題目。近期接觸 Node Tree 以及 Counting Sort 和 Radix Sort 的練習，通過理解與實作來提升自己的技術能力。"
         },
         {
           "title": "Open Something",
-          "content": "<a href=\"https://github.com/nestorlai1994/amisce-nvramscript-parser\" target=\"_blank\">amisce-nvramscript-parser</a> 是最近工作需求開發的小工具，雖然不實用但也可以解決特定需求。"
+          "content": "<a href=\"https://github.com/nestorlai1994/amisce-nvramscript-parser\" target=\"_blank\">amisce-nvramscript-parser</a> 是最近工作需求開發的小工具，可以解決特定需求。"
         }
       ]
     }
