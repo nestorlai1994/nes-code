@@ -9,12 +9,13 @@
       "abs_exp": [
         {
           "title": "BAMPI Auto Deploy Solution",
-          "content": "為了增強 BAMPI 的部署能力，我設計了一個大規模自動化部署功能。該方案利用 insomniacslk/dhcp 和 pin/tftp 來提供定制的 IP 地址和安裝配置文件 kickstart，並通過 net/http 提供 API 以追蹤安裝進度。利用kickstart 內 %pre section 可做到動態指定 IP/Partion 等安裝設定，並使各個伺服器使用同一個 source tree 進行安裝。",
+          "content": "為了增強 BAMPI 的部署能力，我設計了一個大規模自動化部署功能。該方案利用 insomniacslk/dhcp 和 pin/tftp 來提供定制的 IP 地址和安裝配置文件 kickstart，並通過 net/http 提供 API 以追蹤安裝進度。利用kickstart 內 %pre section 可做到動態指定 IP/Partion 等安裝設定，並使各個伺服器使用同一個 source tree 進行安裝。<a target=\"_blank\" href=\"https://nesoli-beta.life/\">Demo</a>",
           "pic": "assets/img/auto-deploy-flow-illusions.png"
         },
         {
           "title": "Prepare BAMPI V",
-          "content": "因應客戶認為軟體更新的部署過程太過複雜，計畫將 BAMPI 轉換為容器化應用，以降低部署難度，提高擴展性與高可用性。做為第一步我建構 K8s Cluster 取代原本 PVE 的環境。"
+          "content": "因應客戶認為軟體更新的部署過程太過複雜，計畫將 BAMPI 轉換為容器化應用，以降低部署難度，提高擴展性與高可用性。做為第一步我建構 K8s Cluster 取代原本 PVE 的環境。",
+          "pic": "assets/img/K8s-Template-image.png"
         },
         {
           "title": "Multi-platform BAMPI",
@@ -27,7 +28,8 @@
         },
         {
           "title": "Gitlab + Drone CI/CD on K8s cluster",
-          "content": "在 K8s 集群上部署 Gitlab / Drone / Harbor，實現自動化測試和部署軟體於目標環境。"
+          "content": "在 K8s 集群上部署 Gitlab / Drone / Harbor，實現自動化測試和部署軟體於目標環境。",
+          "pic": "assets/img/cicd-image.png"
         },
         {
           "title": "ARM SystemReady IR",
